@@ -20,11 +20,11 @@ def score_submission(submission, check, target_metrics):
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description='Macine learning models scoring tool',
+    parser = argparse.ArgumentParser(description='Macine learning submissions scoring tool',
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
     parser.add_argument('-s', '--submission', default='submission.csv', help='The submission file, must be in csv format')
-    parser.add_argument('-t', '--check', default='check.csv', help='The checking file, must be in csv format')
+    parser.add_argument('-c', '--check', default='check.csv', help='The checking file, must be in csv format')
 
     parser.add_argument('-m', '--metric', dest='metrics', action='append', default=[], help='Which metric(s) to use')
     parser.add_argument('-i', '--index', default=None, help='Specify index column')
