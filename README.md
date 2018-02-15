@@ -8,7 +8,7 @@ For command-line use:
 $ python score.py --help
 usage: score.py [-h] [-s SUBMISSION] [-c CHECK] [-m METRICS] [-i INDEX]
 
-Macine learning models scoring tool
+Machine learning submissions scoring tool
 
 optional arguments:
   -h, --help            show this help message and exit

@@ -20,7 +20,7 @@ def score_submission(submission, check, target_metrics):
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description='Macine learning submissions scoring tool',
+    parser = argparse.ArgumentParser(description='Machine learning submissions scoring tool',
                                      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
     parser.add_argument('-s', '--submission', default='submission.csv', help='The submission file, must be in csv format')
